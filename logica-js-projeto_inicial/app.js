@@ -11,7 +11,7 @@ while(chute != numero_secreto){
     chute= prompt('Digite o número entre 1 e 30');
 
     if (numero_secreto == chute){
-        alert( `Boa ${numero_secreto}`);
+        break;
      }else{
          alert('Burro');
              
@@ -28,5 +28,6 @@ while(chute != numero_secreto){
     
 }
 
+//if(?) e else(:) enxutado
 let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'
 alert(`Isso ai! Você descobriu o número secreto ${numero_secreto} com ${tentativas} ${palavraTentativa}`);
